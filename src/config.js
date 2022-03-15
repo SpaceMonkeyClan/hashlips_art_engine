@@ -5,17 +5,17 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "Zombie Baby Chimp";
+const description = "Unique collection of Baby Chimps";
+const baseUri = "ipfs://QmTahxECQEbpaY45MCarxdesP7ktCZZd99YG5uhXUo12Pk";
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "ZBC",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0x4eF25A37FbC70CA9d561D6a41036ccDF323258Ec",
       share: 100,
     },
   ],
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 20,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },
@@ -42,8 +42,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2000,
+  height: 2000,
   smoothing: false,
 };
 
