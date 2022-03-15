@@ -139,7 +139,7 @@ const addMetadata = (_dna, _edition) => {
     date: dateTime,
     ...extraMetadata,
     attributes: attributesList,
-    compiler: "ZBC DESIGNS",
+    compiler: "PolyTiger DESIGNS",
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
