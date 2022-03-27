@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Ethereuojis";
 const description = "Show off your Ethereum loyalty with your very own Ethereuoji (Ethereum emoji). These fun and armed Ethereuojis offer a twist on emojis, be creative in your use of them, the possibilities are endless! Let Ethereuojis take over the internet!";
-const baseUri = "ipfs://QmP7yALNCQtvw52W3a4bniZHwbttLYqGj5qYAqEDqXBfXL";
+const baseUri = "ipfs://QmTXo6DaY3rafZSseSF7qhm1iLRd6CAojs5rZTmbNRDtDR";
 
 const solanaMetadata = {
   symbol: "EMOJI",
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 10000,
     layersOrder: [
       { name: "bg" },
       { name: "hand" },
