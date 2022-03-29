@@ -5,12 +5,12 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Ethereuojis";
-const description = "Show off your Ethereum loyalty with your very own Ethereuoji (Ethereum emoji). These fun and armed Ethereuojis offer a twist on emojis, be creative in your use of them, the possibilities are endless! Let Ethereuojis take over the internet!";
-const baseUri = "ipfs://QmTXo6DaY3rafZSseSF7qhm1iLRd6CAojs5rZTmbNRDtDR";
+const namePrefix = "Cryptoboxers";
+const description = "Has yet to decide description....";
+const baseUri = "ipfs://QmYijG9bCeRfGxinU2htEZx3axsufGcmnhNpWxSZCSDJMw";
 
 const solanaMetadata = {
-  symbol: "EMOJI",
+  symbol: "CB",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10000,
+    growEditionSizeTo: 50,
     layersOrder: [
       { name: "bg" },
       { name: "hand" },
