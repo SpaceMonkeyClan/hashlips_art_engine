@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Cryptoboxers";
 const description = "Cryptoboxers are a unique pack of crypto canines that meet up in 'The Backyard', cause mischief in the treehouse, scheme in the garage, and have a good time at the 'Cat's Meow', their doghouse-turned-divebar which has nightly live music. Become a Cryptoboxer owner to discover every nook and cranny of the yard.";
-const baseUri = "ipfs://change...";
+const baseUri = "ipfs://QmWgrY7u37SY2gkQjse5ETeB4NdMdTofhrFWp5zUaWZnPW";
 
 const solanaMetadata = {
   symbol: "CB",
