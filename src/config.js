@@ -6,8 +6,8 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Cryptoboxers";
-const description = "Has yet to decide description....";
-const baseUri = "ipfs://QmYijG9bCeRfGxinU2htEZx3axsufGcmnhNpWxSZCSDJMw";
+const description = "Cryptoboxers are a unique pack of crypto canines that meet up in 'The Backyard', cause mischief in the treehouse, scheme in the garage, and have a good time at the 'Cat's Meow', their doghouse-turned-divebar which has nightly live music. Become a Cryptoboxer owner to discover every nook and cranny of the yard.";
+const baseUri = "ipfs://change...";
 
 const solanaMetadata = {
   symbol: "CB",
@@ -24,14 +24,14 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 50,
+    growEditionSizeTo: 5,
     layersOrder: [
-      { name: "bg" },
-      { name: "hand" },
-      { name: "foot" },
-      { name: "base" },
-      { name: "eye" },
-      { name: "head" },
+      { name: "Background" },
+      { name: "Body" },
+      { name: "Accessories" },
+      { name: "Eyes" },
+      { name: "Head" },
+      { name: "Mouth" },
     ],
   },
 ];
