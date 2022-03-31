@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Cryptoboxers";
-const description = "Cryptoboxers are a unique pack of crypto canines that meet up in 'The Backyard', cause mischief in the treehouse, scheme in the garage, and have a good time at the 'Cat's Meow', their doghouse-turned-divebar which has nightly live music. Become a Cryptoboxer owner to discover every nook and cranny of the yard.";
-const baseUri = "ipfs://QmWgrY7u37SY2gkQjse5ETeB4NdMdTofhrFWp5zUaWZnPW";
+const namePrefix = "A Tall Order";
+const description = "Our goal is to revive idioms that are known, or not so known in a fun artful way, these can be used in conversation or as status symbols. Each idiom contains unique traits and displays a unique twist with it's history when available.";
+const baseUri = "ipfs://Change";
 
 const solanaMetadata = {
   symbol: "CB",
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10000,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
       { name: "Body" },
