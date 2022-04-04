@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Throw Someone Under The Bus";
+const namePrefix = "Go Bananas";
 const description = "Our goal is to revive idioms that are known, or not so known in a fun artful way, these can be used in conversation or as status symbols. Each idiom contains unique traits and displays a unique twist with it's history when available.";
-const baseUri = "ipfs://QmRc8ZKJKZbhinvMZbkZod8LZNg3GASvJkTKEpv2PUTJs6";
+const baseUri = "ipfs://QmUiyDYi33nJrvooaXLsr9hiYHuB9PAQrzRzFWt9GK7eoR";
 
 const solanaMetadata = {
   symbol: "CB",
