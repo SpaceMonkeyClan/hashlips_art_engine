@@ -6,7 +6,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Minds Of Mind";
-const description = "Emotions/Expressions in this Mind of Mine";
+const description = "Emotions/Expressions in this Mind of Mine.";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
@@ -27,12 +27,12 @@ const layerConfigurations = [
     growEditionSizeTo: 5,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Skin" },
+      { name: "Accessories" },
+      { name: "Clothes" },
+      { name: "Mouth" },
+      { name: "Head" },
+      { name: "Caged Thought" },
     ],
   },
 ];

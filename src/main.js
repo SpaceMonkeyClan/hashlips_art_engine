@@ -139,11 +139,8 @@ const addMetadata = (_dna, _edition) => {
     date: dateTime,
     ...extraMetadata,
     attributes: attributesList,
-<<<<<<< Updated upstream
-    compiler: "ZBC DESIGNS",
-=======
-    compiler: "HAPPYTREES DESIGNS",
->>>>>>> Stashed changes
+
+    compiler: "Mind Of Mine Designs",
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
