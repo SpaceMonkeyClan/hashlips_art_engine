@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Baby Tiger INU";
 const description = "BTINU is a native token who of a multi chain ecosystem with stable coin reflection, nft marketplace, play to earn metaverse game, stacking and farming and launchpad, Are you ready to rock the moon with us!";
-const baseUri = "ipfs://test";
+const baseUri = "ipfs://QmTt79FsZqs6jHEjegmGFD9LqQ8yb56w3GvDp59EyGy2Pa";
 
 const solanaMetadata = {
   symbol: "MOM",
