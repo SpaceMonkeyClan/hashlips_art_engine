@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Minds Of Mind";
-const description = "Emotions/Expressions in this Mind of Mine.";
-const baseUri = "ipfs://QmRh5PFuZBvVgSV9fKYMZGQJ317FJU3PsgZycmKvCzZSpY";
+const namePrefix = "Baby Tiger INU";
+const description = "BTINU is a native token who of a multi chain ecosystem with stable coin reflection, nft marketplace, play to earn metaverse game, stacking and farming and launchpad, Are you ready to rock the moon with us!";
+const baseUri = "ipfs://test";
 
 const solanaMetadata = {
   symbol: "MOM",
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 8000,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
       { name: "Skin" },
