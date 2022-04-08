@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Minds Of Mind";
 const description = "Emotions/Expressions in this Mind of Mine.";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "ipfs://QmRh5PFuZBvVgSV9fKYMZGQJ317FJU3PsgZycmKvCzZSpY";
 
 const solanaMetadata = {
   symbol: "MOM",
