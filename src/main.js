@@ -140,7 +140,7 @@ const addMetadata = (_dna, _edition) => {
     ...extraMetadata,
     attributes: attributesList,
 
-    compiler: "Mind Of Mine Designs",
+    compiler: "FUTBOL HEADS Designs",
   };
   if (network == NETWORK.sol) {
     tempMetadata = {
