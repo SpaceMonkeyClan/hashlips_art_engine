@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Mind Of Mine";
 const description = "Emotions/Expressions in this Mind of Mine.";
-const baseUri = "ipfs://test";
+const baseUri = "ipfs://QmfJuYyhiCptH4UVgJ7yETemfcMjxNhirL6aPnsjN4xN61";
 
 const solanaMetadata = {
   symbol: "MOM",
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 8000,
     layersOrder: [
       { name: "Background" },
       { name: "Skin" },
