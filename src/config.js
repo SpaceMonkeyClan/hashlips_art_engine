@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Bored Baby";
-const description = "Bored Baby is a collection of 10,000 unique babies united together on the Polygon Blockchain.";
-const baseUri = "ipfs://QmYAsU85Ao69RDDMj5xUyYujLPYvucUpKyicQZyRcQGLVR";
+const namePrefix = "Spice Girls";
+const description = "Exclusive 10K NFT. The story of Spice Girls!";
+const baseUri = "ipfs://QmUUwaJLWC6iKCUF5ESutUwD8xJde7irSc5jPUdAfnezBr";
 
 const solanaMetadata = {
   symbol: "MOM",
