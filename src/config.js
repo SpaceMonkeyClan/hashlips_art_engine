@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Spice Girls";
-const description = "Exclusive 10K NFT. The story of Spice Girls!";
-const baseUri = "ipfs://QmUUwaJLWC6iKCUF5ESutUwD8xJde7irSc5jPUdAfnezBr";
+const namePrefix = "THE BABY GOATS COLLECTION";
+const description = "The first companion NFT for all the Bored Goats holders... Meeeeh!";
+const baseUri = "ipfs://QmS8sXAEUE5MoThuqrS4ZxRVytRewzJCd1zGpXtRE1arik";
 
 const solanaMetadata = {
   symbol: "MOM",
