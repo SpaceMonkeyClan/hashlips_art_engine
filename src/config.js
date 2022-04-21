@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Historic Heathens";
+const namePrefix = "Girl";
 const description = "Null";
-const baseUri = "ipfs://QmUTmsiPZRZ8UxjMUyvUG4HM4mqT4xTFRmuohqxXVac2bG";
+const baseUri = "ipfs://test";
 
 const solanaMetadata = {
   symbol: "MOM",
