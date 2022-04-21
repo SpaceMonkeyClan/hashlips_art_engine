@@ -6,7 +6,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Historic Heathens";
-const description = "Null";
+const description = "The metaverse brings a fun environment to the majority of it's users, but unfortunately criminals have gotten out of control. The meta police department has recruited enough officers to take them on a daily basis. Once they get captured, their data is stored in an NFT and sold. Avatars become self aware and dispute the users commands. While others follow every direction without a problem. Every purchased NFT allows the Meta Police Dept to invest it in new recruits and software. The social media sites provide a detailed description of their crimes. Thank you for support and God bless our police force.";
 const baseUri = "ipfs://QmUTmsiPZRZ8UxjMUyvUG4HM4mqT4xTFRmuohqxXVac2bG";
 
 const solanaMetadata = {
