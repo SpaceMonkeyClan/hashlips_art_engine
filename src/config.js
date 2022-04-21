@@ -6,8 +6,8 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Girl";
-const description = "Null";
-const baseUri = "ipfs://test";
+const description = "Tiwa Savage!";
+const baseUri = "ipfs://QmYp24kEMpoF87G916LHjvjiNxzFjb57WEsN71yS64f4M1";
 
 const solanaMetadata = {
   symbol: "MOM",
