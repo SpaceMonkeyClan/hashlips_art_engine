@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Meta Ghost";
 const description = "GHOSTS HAVE ADAPTED AND THEY NOW LIVE INSIDE OUR MACHINES AND OUR VIRTUAL WORLDS. THEY MUST BE HUNTED.";
-const baseUri = "ipfs://test";
+const baseUri = "ipfs://QmUHaE8tSto54aVxg8PE3hV8NGEhcwbMUQV3j4yBf1hez6";
 
 const solanaMetadata = {
   symbol: "MOM",
