@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Inmate";
-const description = "The metaverse brings a fun environment to the majority of it's users, but unfortunately criminals have gotten out of control. The meta police department has recruited enough officers to take them on a daily basis. Once they get captured, their data is stored in an NFT and sold. Avatars become self aware and dispute the users commands. While others follow every direction without a problem. Every purchased NFT allows the Meta Police Dept to invest it in new recruits and software. The social media sites provide a detailed description of their crimes. Thank you for support and God bless our police force.";
-const baseUri = "ipfs://QmUTmsiPZRZ8UxjMUyvUG4HM4mqT4xTFRmuohqxXVac2bG";
+const namePrefix = "Meta Ghost";
+const description = "GHOSTS HAVE ADAPTED AND THEY NOW LIVE INSIDE OUR MACHINES AND OUR VIRTUAL WORLDS. THEY MUST BE HUNTED.";
+const baseUri = "ipfs://test";
 
 const solanaMetadata = {
   symbol: "MOM",
@@ -24,15 +24,18 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 5000,
     layersOrder: [
-      { name: "Background" },
-      { name: "Skin" },
-      { name: "Accessories" },
-      { name: "Clothes" },
-      { name: "Mouth" },
-      { name: "Head" },
-      { name: "Caged Thought" },
+      { name: "BACKGROUND" },
+      { name: "BODY" },
+      { name: "TEETH" },
+      { name: "MERCH" },
+      { name: "ACCESSORIES" },
+      { name: "WEAPON" },
+      { name: "HEAD" },
+      { name: "MOUTH" },
+      { name: "EYES" },
+      { name: "GLASS" },
     ],
   },
 ];
