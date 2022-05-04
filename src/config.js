@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "OttomanX";
 const description = "The OttomanX is a collection of 1,500 unique NFTs - they are rulers, warriors, scholars, poets, thinkers, romantics. Come and be a part of these visions.";
-const baseUri = "ipfs://QmTCZo1sZ952Ek5qcjNpeCCzYFLHpttY26g3p5ULsZn2cW";
+const baseUri = "https://ottomanx.mypinata.cloud/ipfs/QmTCZo1sZ952Ek5qcjNpeCCzYFLHpttY26g3p5ULsZn2cW";
 
 const solanaMetadata = {
   symbol: "MOM",
