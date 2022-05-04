@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Meta Ghost";
-const description = "GHOSTS HAVE ADAPTED AND THEY NOW LIVE INSIDE OUR MACHINES AND OUR VIRTUAL WORLDS. THEY MUST BE HUNTED.";
-const baseUri = "ipfs://QmXSHcGbqJLpsSPfRhnu6EmUBEduT6eqxWPPbEAbpuMUNd";
+const namePrefix = "The Big Gorilla";
+const description = "The Big Gorilla represents one of the 10 thousand big mamas in this incredible collection. This NFT collection is characterized by heavy duty characters with urban raw in-your-face attributes.";
+const baseUri = "ipfs://QmYu6Cf313xxWjLi9BTxvGeQ1zidJNbxXQu6AQfvcdyYCk";
 
 const solanaMetadata = {
   symbol: "MOM",
