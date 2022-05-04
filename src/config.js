@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Meta Ghost";
-const description = "GHOSTS HAVE ADAPTED AND THEY NOW LIVE INSIDE OUR MACHINES AND OUR VIRTUAL WORLDS. THEY MUST BE HUNTED.";
-const baseUri = "ipfs://QmUHaE8tSto54aVxg8PE3hV8NGEhcwbMUQV3j4yBf1hez6";
+const namePrefix = "OttomanX";
+const description = "The OttomanX is a collection of 1,500 unique NFTs - they are rulers, warriors, scholars, poets, thinkers, romantics. Come and be a part of these visions.";
+const baseUri = "ipfs://QmTCZo1sZ952Ek5qcjNpeCCzYFLHpttY26g3p5ULsZn2cW";
 
 const solanaMetadata = {
   symbol: "MOM",
