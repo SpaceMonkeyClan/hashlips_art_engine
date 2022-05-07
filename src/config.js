@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "The Big Gorilla";
-const description = "The Big Gorilla represents one of the 10 thousand big mamas in this incredible collection. This NFT collection is characterized by heavy duty characters with urban raw in-your-face attributes.";
-const baseUri = "ipfs://QmYu6Cf313xxWjLi9BTxvGeQ1zidJNbxXQu6AQfvcdyYCk";
+const namePrefix = "Everyday People";
+const description = "I will need your description.";
+const baseUri = "ipfs://sample";
 
 const solanaMetadata = {
   symbol: "MOM",
@@ -24,18 +24,17 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5000,
+    growEditionSizeTo: 5,
     layersOrder: [
-      { name: "BACKGROUND" },
-      { name: "BODY" },
-      { name: "TEETH" },
-      { name: "MERCH" },
-      { name: "ACCESSORIES" },
-      { name: "WEAPON" },
-      { name: "HEAD" },
-      { name: "MOUTH" },
-      { name: "EYES" },
-      { name: "GLASS" },
+      { name: "Mouth" },
+      { name: "Ears" },
+      { name: "Face" },
+      { name: "Hair" },
+      { name: "Accessories" },
+      { name: "Neck" },
+      { name: "Nose" },
+      { name: "Outfit" },
+      { name: "Eyes" },
     ],
   },
 ];
