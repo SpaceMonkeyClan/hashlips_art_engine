@@ -26,15 +26,19 @@ const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Mouth" },
-      { name: "Ears" },
+
+
       { name: "Face" },
-      { name: "Hair" },
-      { name: "Accessories" },
+
+      { name: "Mouth" },
       { name: "Neck" },
       { name: "Nose" },
-      { name: "Outfit" },
+
       { name: "Eyes" },
+      { name: "Hair" },
+      { name: "Outfit" },
+      { name: "Accessories" },
+
     ],
   },
 ];
