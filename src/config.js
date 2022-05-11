@@ -6,7 +6,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Hamster";
-const description = "The Cyber OF Hamster is a new project that consists of a next-generation collection of Hamster NFT, cyber digital collectibles that exist on the Ethereum blockchain. We want to be a community and utility initiative. We want holders to enjoy the cyber and including the interesting benefits.";
+const description = "The Cyber OF Hamster is a new project that consists of a next-generation collection of Hamster NFT, cyber digital collectibles that exist on the Polygon blockchain. We want to be a community and utility initiative. We want holders to enjoy the cyber and including the interesting benefits.";
 const baseUri = "ipfs://QmeE7pHhN7UEH3SxuRGGv9sFknV3A9FpLe6uEi6fVpqHP5";
 
 const solanaMetadata = {
