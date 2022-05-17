@@ -7,7 +7,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Bored Baby";
 const description = "Bored Baby is a collection of 10,000 unique babies united together on the Polygon Blockchain.";
-const baseUri = "ipfs://QmYAsU85Ao69RDDMj5xUyYujLPYvucUpKyicQZyRcQGLVR";
+const baseUri = "ipfs://Qmd6yEYyqUP76GGsMTpSqxmXGSQYQ58obaBWW1M675ZZWc";
 
 const solanaMetadata = {
   symbol: "MOM",
