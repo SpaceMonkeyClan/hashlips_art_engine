@@ -6,8 +6,8 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Goofy Gophers";
-const description = "Null";
-const baseUri = "ipfs://test";
+const description = "10,000 Goofy Gophers have all gathered on the Polygon Blockchain to wreak havoc and pull pranks. It’s your job to put an end to the madness. Find and adopt your very own Goofy Gopher today. Only on OpenSea";
+const baseUri = "ipfs://REPLACE-WITH-CID";
 
 const solanaMetadata = {
   symbol: "MOM",
