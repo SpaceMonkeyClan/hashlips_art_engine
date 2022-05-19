@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Bored Baby";
-const description = "Bored Baby is a collection of 10,000 unique babies united together on the Polygon Blockchain.";
-const baseUri = "ipfs://Qmd6yEYyqUP76GGsMTpSqxmXGSQYQ58obaBWW1M675ZZWc";
+const namePrefix = "Goofy Gophers";
+const description = "Null";
+const baseUri = "ipfs://test";
 
 const solanaMetadata = {
   symbol: "MOM",
@@ -15,7 +15,7 @@ const solanaMetadata = {
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "null",
       share: 100,
     },
   ],
@@ -24,15 +24,19 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 10000,
     layersOrder: [
-      { name: "Background" },
-      { name: "Skin" },
-      { name: "Accessories" },
-      { name: "Clothes" },
-      { name: "Mouth" },
-      { name: "Head" },
-      { name: "Caged Thought" },
+      { name: "Backgrounds" },
+      { name: "Body" },
+      { name: "Eyebrows" },
+      { name: "Shirts" },
+      { name: "Neck" },
+      { name: "Mouths" },
+      { name: "Eyes" },
+      { name: "Moustaches" },
+      { name: "Nose" },
+      { name: "Glasses" },
+      { name: "Hats" },
     ],
   },
 ];
@@ -42,8 +46,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 1000,
-  height: 1000,
+  width: 2000,
+  height: 2000,
   smoothing: false,
 };
 
