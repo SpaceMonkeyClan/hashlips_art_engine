@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Goofy Gophers";
-const description = "10,000 Goofy Gophers have all gathered on the Polygon Blockchain to wreak havoc and pull pranks. It’s your job to put an end to the madness. Find and adopt your very own Goofy Gopher today. Only on OpenSea";
-const baseUri = "ipfs://REPLACE-WITH-CID";
+const namePrefix = "Referee's Jam";
+const description = "Referee Jam is a brand within the sport metaverse, where their community can share experiences and knowledges so new referees all over the world can benefit. Join for free to View the collection at ReferreJam.com/gallery. RefereeJam starts with a collection of 3,000 avatars that give access to our world best referee knowledgeable blog. A court of the internet where new referees can learn the basic of referees rules, principals and techniques and meet to create a decentralized future for all sports. We watch together. We rule together. We arbitrate together. Ready to take the trophy home?";
+const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
   symbol: "MOM",
@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10000,
+    growEditionSizeTo: 3000,
     layersOrder: [
       { name: "Backgrounds" },
       { name: "Body" },
