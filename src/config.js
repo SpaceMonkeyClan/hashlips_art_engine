@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Referee's Jam";
+const namePrefix = "Referee";
 const description = "Referee Jam is a brand within the sport metaverse, where their community can share experiences and knowledges so new referees all over the world can benefit. Join for free to View the collection at ReferreJam.com/gallery. RefereeJam starts with a collection of 3,000 avatars that give access to our world best referee knowledgeable blog. A court of the internet where new referees can learn the basic of referees rules, principals and techniques and meet to create a decentralized future for all sports. We watch together. We rule together. We arbitrate together. Ready to take the trophy home?";
-const baseUri = "ipfs://NewUriToReplace";
+const baseUri = "ipfs://QmaSkERhAUbj9tS5s5BhyJHQ4AXKkzFRgssRvtFA67LZQx";
 
 const solanaMetadata = {
   symbol: "MOM",
