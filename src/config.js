@@ -5,7 +5,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Goofy Gophers";
+const namePrefix = "Goofy Gopher";
 const description = "10,000 Goofy Gophers have all gathered on the Polygon Blockchain to wreak havoc and pull pranks. It's your job to put an end to the madness. Find and adopt your very own Goofy Gopher today. Only on OpenSea";
 const baseUri = "ipfs://Qmbfn7CexMEWc8rUCjFT51ro4hpSJENVpPc1bMxJKYrjV9";
 
